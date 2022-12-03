@@ -6,9 +6,9 @@ import java.awt.event.ActionListener;
 
 public class Window extends JFrame {
 
-    private JButton buttonRed;
-    private JButton buttonYellow;
-    private JButton buttonGreen;
+    private final JButton buttonRed;
+    private final JButton buttonYellow;
+    private final JButton buttonGreen;
 
     public Window() {
         super("Window");
